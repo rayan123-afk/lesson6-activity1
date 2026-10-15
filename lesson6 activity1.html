@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>my doctor appoinment</h1>
+    <p>fill in the form to book your appoinment</p>
+    <form>
+        <fieldset>
+            <legend>personal details</legend>
+
+            <label>your name</label> <br>
+            <input type="text" placeholder="enter your full name"> <br>
+
+            <label>patient id</label> <br>
+            <input type="password" placeholder="your secret id"> <br>
+
+            <label>date of birth</label> <br>
+            <input type="date"> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>your visit</legend>
+            <label>choose your docter</label>
+            <select>
+                <option>dr sam</option>
+                <option>dr wali</option>
+                <option>dr rahul</option>
+                <option>dr rohan</option>
+            </select>
+            <label>where are you visiting?</label>
+            <input type="radio" name="ayan" value="fever" >fever <br>
+            <input type="radio" name="ayan" value="bones"> bones <br>
+            <input type="radio" name="ayan" value="dentist"> dentist <br>
+            <input type="radio" name="ayan" value="cold"> cold <br>
+            
+            <label>any notes for the doctor</label> <br>
+            <textarea cols="50" rows="4"></textarea> <br>
+            <button value="submit" type="submit">submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
